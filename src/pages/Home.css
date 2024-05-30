@@ -1,0 +1,43 @@
+/* src/pages/Home.css */
+
+.home-container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+  }
+  
+  .home-container h2 {
+    color: #ff9800;
+    font-weight: bold;
+  }
+  
+  .home-container .lead {
+    color: #cfcfcf;
+  }
+  
+  .home-container .card {
+    background-color: #2c2c2c;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .home-container .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .home-container .card-title {
+    font-size: 1.5rem;
+    color: #ff9800;
+  }
+  
+  .home-container .btn-primary {
+    background-color: #ff9800;
+    border-color: #ff9800;
+  }
+  
+  .home-container .btn-primary:hover {
+    background-color: #e68900;
+    border-color: #e68900;
+  }
+  
