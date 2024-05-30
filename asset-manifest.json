@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/QuizQuest/static/css/main.38622a71.css",
-    "main.js": "/QuizQuest/static/js/main.0ffb669a.js",
+    "main.js": "/QuizQuest/static/js/main.eb1decb7.js",
     "index.html": "/QuizQuest/index.html",
     "main.38622a71.css.map": "/QuizQuest/static/css/main.38622a71.css.map",
-    "main.0ffb669a.js.map": "/QuizQuest/static/js/main.0ffb669a.js.map"
+    "main.eb1decb7.js.map": "/QuizQuest/static/js/main.eb1decb7.js.map"
   },
   "entrypoints": [
     "static/css/main.38622a71.css",
-    "static/js/main.0ffb669a.js"
+    "static/js/main.eb1decb7.js"
   ]
 }
