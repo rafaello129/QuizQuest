@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, useParams } from 'react-router-dom';
 import Header from './components/Header';
@@ -50,7 +49,7 @@ const App = () => {
   };
 
   return (
-    <Router>
+    <Router basename="/QuizQuest">
       <div className="App">
         <Header />
         <Routes>

@@ -1,5 +1,5 @@
 {
-  "name": "quizquest",
+  "name": "quest",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,9 +19,9 @@
   "homepage": "https://rafaello129.github.io/QuizQuest",
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
